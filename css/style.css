@@ -1,0 +1,395 @@
+*{
+    margin:0px;
+    padding:0px; 
+    list-style:none;
+}
+.headerCont{
+    background-color: #101828;
+    position:sticky;
+    top:0px;
+    z-index:1;
+}
+
+.logo img
+{ width:50%;}
+
+.navbar{
+    padding-top:0.2 rem  !important;
+    padding-bottom:0.1 rem  !important;
+}
+
+.navbar a{
+    color:#fff;
+}
+
+.navbar a:visited{
+    color:#fff;
+}
+
+
+.nav-link 
+{
+    padding-right: 1.1 rem !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0.60rem;
+}
+
+.fa-angle-right
+{
+    font-size:14px !important;
+}
+
+
+.dropdown-menu{
+    position:relative;
+
+}
+
+.dropdown-menu li a:hover{
+    background-color: rgb(187, 222, 236);
+
+}
+
+
+.nested-dropdown, .nested-dropdown-2, .nested-dropdown-3
+{
+   border-radius:0px 5px 5px 0px;
+   border-top: solid 0.5px rgba(0, 0, 0, .15);
+   border-right: solid 0.5px rgba(0, 0, 0, .15);
+   border-bottom: solid 0.5px rgba(0, 0, 0, .15);
+    background-color:#fff;
+    display: none;
+    transition: 1s;
+    position:absolute;
+    top:-0.3px;
+    left:180px;
+}
+
+.dropdown-menu li a:hover .nested-dropdown{
+    display: block;
+    opacity:1;
+ 
+ }
+
+.nested-dropdown li{
+    padding:8px 20px 8px 0px;
+    color: #212529 !important;
+
+}
+
+.nested-dropdown li:hover{
+    font-weight:500;
+
+}
+
+.nested-dropdown li:hover .nested-dropdown-2{
+    display: block;
+    opacity:1;
+    font-weight:400;
+
+}
+
+.nested-dropdown-2 li:hover .nested-dropdown-3{
+    display: block;
+    opacity:1;
+    font-weight:400;
+
+}
+
+.sliderBanner{
+    background: linear-gradient(261.99deg, #ffe3dd 2.82%, #fff8da 17.1%, rgba(255, 249, 221, 0) 31.78%, hsla(0, 100%, 90%, .04) 50.27%,
+     rgba(255, 249, 221, .35) 67.28%, #ffeee9 77.89%, rgba(255, 238, 233, .14) 91.09%) !important;
+   
+}
+.carousel-item img{
+    width:100% !important;
+    height:100% !important;
+
+}
+.sliderCont{
+    position: relative;
+}
+.carousel-indicators{
+    position:absolute;
+    top:103%;
+
+}
+.roundBtn{
+    border-radius:50%;
+    width:10px !important;
+    height:10px !important;
+    background-color: #000 !important;
+ 
+}
+
+.formCont{
+    background-color: #101828;
+}
+
+.formCont p{
+    color:#667085;
+}
+
+input, select
+{
+    width:95% !important; 
+}
+
+.bookDemo{
+    width:95% !important; 
+    background-color: #ED1B23;
+
+}
+
+
+.bookDemo:hover{
+    background-color: red;
+}
+.card{
+    
+    border:solid 0.5px #ccc;
+    position: relative;
+    transition:1s;
+
+}
+
+.card img{
+    padding:15px;
+}
+.card h5{
+    line-height: 30px;
+    padding:5px 10px 30px 10px;
+}
+
+.card-body a{
+    color:#7b7575;
+    text-decoration: none; 
+}
+
+.card:hover{
+    cursor: pointer;
+    transition:1s;
+    top:-20px
+}
+.card:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 2px;
+    display: block;
+    top:100%;
+    right: 0;
+    background: red;
+    transition: width .8s ease;
+    -webkit-transition: width .8s ease;
+}
+.card:hover:after{
+    width: 100%;
+    left: 0;
+    background: red;
+  }
+
+.card:hover .card-body a{
+    color:red;
+}
+
+.lawEntCont{
+    background-color: #101828;;
+}
+.lawEntCont p{
+    color:#667085;
+}
+
+.lawEntBox{
+    background: linear-gradient(106.78deg,#ffefab 10.51%,#f1c4c4 80.72%);
+    transition:1s !important;
+}
+
+.lawEntBox:hover{
+    background: url("/images/courses-card-bg-edit.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    transition:1s !important;
+    cursor: pointer;
+}
+
+.headingText h2{
+    color:#7b7575;
+    font-family: Train One !important;
+    padding:20px 20px;
+    text-align:right;
+    opacity: 1;
+}
+
+.lawEntBox:hover .headingText h2{
+    font-size:38px;
+    opacity: 0;
+    transition:1s;
+}
+
+.lawEntBox:hover .cardText h3{
+    color:#fff;
+}
+
+.lawEntBox:hover .cardText p{
+    color:#fff;
+}
+
+.cardText{
+    text-align:left;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.cardText h3{
+    padding:5px 30px;
+}
+
+.cardText p{
+    color:#000;
+    padding:8px 30px;
+}
+
+.cardText ul li{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    color:#667085;
+    font-weight:500;
+    font-size:14px;
+    padding:8px 20px;
+    border-radius:5px;
+    margin-left:10px;
+}
+
+.cardText ul li:hover{
+    background-color: red;
+    color:#fff;
+}
+.mentor{
+    position: relative;
+}
+
+.faculty{
+    width:90%;
+    position:absolute;
+    top:95%;
+    background-color: #FFDC44;
+    border-radius:10px 10px 0px 0px;
+    padding:10px 10px 0px 10px;
+}
+
+.faculty span{
+   color:rgb(213, 56, 56);
+   font-weight:600;
+   font-size:20px;
+}
+
+.whyLPBox-Right p{
+   font-size:14px;
+   font-weight:500;
+   color:#7b7575;
+   padding-right:30px
+}
+
+.newsCont p{
+    font-size:15px;
+    font-weight:500;
+    color:#7b7575;
+
+}
+.newsCont h6{
+    font-size:14px
+}
+
+.newsCont h5:hover{
+    cursor: pointer;
+    color:red;
+}
+
+.news-left{
+    display: flex;
+}
+
+.newsImg{
+    width:50%;
+}
+.newsContent{
+    width:50%;
+}
+
+.newsContent p{
+    font-size:15px;
+    font-weight:500;
+    color:#7b7575;
+
+}
+.newsContent h6{
+    font-size:14px
+}
+
+.newsContent h5:hover{
+    cursor: pointer;
+    color:red;
+}
+
+#arrow{
+    transform: rotate(-40deg);
+}
+
+.FAQ{
+    background-color: #F1F1F1;
+}
+
+.FAQ p{
+   color: #7b7575;
+}
+
+.FAQ ul li{
+    color: #7b7575;
+
+}
+
+.accordion-button, .accordion-body{
+    background-color: #F1F1F1 !important;
+    padding:25px;
+}
+
+.footer{
+    background-color: #101828;
+}
+
+.footer p{
+    color:#667085;
+    font-weight:500;
+}
+
+.footer ul li{
+  padding-bottom:8px !important;
+}
+
+
+.footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer{
+    border-bottom:solid 0.5px #5a647a7b !important;
+}
+
+.footer i{
+    font-size:25px;
+    color:#667085;
+    padding:0px 10px;
+}
+
+
+
+
+red{
+    color:#ED1B23;
+}
+
+

@@ -1,0 +1,14 @@
+@media only screen and (min-width:200px) and (max-width:575px)
+{
+    .formCont{
+        margin-top:60px;
+    }
+
+    .card{
+        width:90% !important;
+        margin:10px auto;
+    }
+    .whyLP{
+        flex-direction: column !important;
+    }
+}
